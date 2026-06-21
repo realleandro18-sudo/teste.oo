@@ -1,0 +1,6 @@
+{
+  "name": "José Carlos Advocacia",
+  "description": "Um site profissional para advogado ou escritório de advocacia, com design elegante e seções para áreas de atuação, sobre e contato.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

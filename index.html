@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Carlos | Escritório de Advocacia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header" class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <svg class="icon icon-amber" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
+                <span class="logo-text">José Carlos</span>
+            </div>
+            <nav class="desktop-nav">
+                <a href="#inicio">Início</a>
+                <a href="#areas">Atuação</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <div class="header-cta hidden-mobile">
+                <a href="#contato" class="btn btn-primary">Fale Conosco</a>
+            </div>
+            <button class="mobile-menu-btn" id="menu-btn" aria-label="Menu">
+                <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                <svg id="menu-icon-close" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+        </div>
+        <!-- Mobile Nav -->
+        <div class="mobile-nav" id="mobile-nav">
+            <a href="#inicio" class="mobile-link">Início</a>
+            <a href="#areas" class="mobile-link">Atuação</a>
+            <a href="#sobre" class="mobile-link">Sobre</a>
+            <a href="#contato" class="mobile-link">Contato</a>
+            <a href="#contato" class="btn btn-primary text-center mt-4 mobile-link">Fale Conosco</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="inicio" class="hero">
+            <div class="hero-bg-image"></div>
+            <div class="hero-bg-gradient"></div>
+            
+            <div class="container hero-container fade-in">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Defesa Jurídica <br>
+                        <span class="text-amber italic">Especializada</span> e Humanizada
+                    </h1>
+                    <p class="hero-subtitle">
+                        Atuação estratégica, ética e combativa para proteger os seus direitos, sua família e o seu patrimônio com a segurança que você merece.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-dark">
+                            Agendar uma Consulta
+                            <svg class="icon-sm arrow-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </a>
+                        <a href="#areas" class="btn btn-outline">Conhecer Áreas de Atuação</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper fade-in-right hidden-mobile">
+                    <div class="hero-image-accent"></div>
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop" alt="Retrato do Advogado" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- PRACTICE AREAS -->
+        <section id="areas" class="areas">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2>Nossas Especialidades</h2>
+                    <div class="divider"></div>
+                    <p>Oferecemos suporte jurídico completo nas principais áreas do direito, sempre focados nos melhores resultados para nossos clientes.</p>
+                </div>
+
+                <div class="areas-grid">
+                    <div class="area-card fade-in-up delay-1">
+                        <div class="area-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
+                        </div>
+                        <h3>Direito Civil</h3>
+                        <p>Assessoria em contratos, responsabilidade civil, danos morais e materiais, além de regularização imobiliária.</p>
+                        <a href="#contato" class="area-link">Saber mais <svg class="icon-xs" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></a>
+                    </div>
+                    
+                    <div class="area-card fade-in-up delay-2">
+                        <div class="area-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3>Direito de Família</h3>
+                        <p>Atuação sensível e eficaz em divórcios, pensão alimentícia, guarda, testamentos e inventários.</p>
+                        <a href="#contato" class="area-link">Saber mais <svg class="icon-xs" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></a>
+                    </div>
+
+                    <div class="area-card fade-in-up delay-3">
+                        <div class="area-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                        </div>
+                        <h3>Direito Trabalhista</h3>
+                        <p>Defesa dos direitos do trabalhador, cálculos rescisórios, assédio moral e reconhecimento de vínculo.</p>
+                        <a href="#contato" class="area-link">Saber mais <svg class="icon-xs" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></a>
+                    </div>
+
+                    <div class="area-card fade-in-up delay-4">
+                        <div class="area-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M12 6h.01"/><path d="M12 10h.01"/><path d="M12 14h.01"/><path d="M16 10h.01"/><path d="M16 14h.01"/><path d="M8 10h.01"/><path d="M8 14h.01"/></svg>
+                        </div>
+                        <h3>Direito Empresarial</h3>
+                        <p>Consultoria preventiva para empresas, elaboração de contratos mercantis e contencioso cível.</p>
+                        <a href="#contato" class="area-link">Saber mais <svg class="icon-xs" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="sobre" class="about">
+            <div class="container about-container">
+                <div class="about-image-wrapper fade-in-left">
+                    <div class="about-image-accent"></div>
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop" alt="Retrato do Advogado" class="about-image">
+                </div>
+
+                <div class="about-content fade-in-right">
+                    <h2>Dr. José Carlos</h2>
+                    <p class="about-oab">OAB/SP 123.456</p>
+                    
+                    <div class="about-text">
+                        <p>Com mais de 15 anos dedicados à advocacia, fundou o escritório com o propósito de oferecer um atendimento personalizado, técnico e focado na resolução efetiva de conflitos.</p>
+                        <p>Acreditamos que cada caso é único e merece a mais profunda análise e dedicação. Nosso compromisso vai além da representação legal; atuamos como verdadeiros conselheiros estratégicos para nossos clientes em suas decisões mais delicadas.</p>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+                            <div>
+                                <h4>Especialista</h4>
+                                <p>Pós-graduado em Direito Civil e Processo Civil.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 22-8-4.5v-6A10 10 0 0 1 12 2a10 10 0 0 1 8 9.5v6Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+                            <div>
+                                <h4>Ética</h4>
+                                <p>Transparência total no andamento e riscos processuais.</p>
+                            </div>
+                        </div>
+                        <div class="feature full-width">
+                            <div class="feature-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+                            <div>
+                                <h4>Atualização</h4>
+                                <p>Escritório sempre alinhado às mais recentes jurisprudências dos tribunais superiores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contato" class="contact">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2>Entre em Contato</h2>
+                    <div class="divider"></div>
+                    <p>Agende uma consulta para discutirmos o seu caso detalhadamente.</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-info fade-in-left">
+                        <h3>Informações</h3>
+                        
+                        <div class="info-items">
+                            <div class="info-item">
+                                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                                <div>
+                                    <h4>Endereço</h4>
+                                    <p>Av. Paulista, 1000 - Conjunto 123<br>Bela Vista, São Paulo - SP<br>01310-100</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                <div>
+                                    <h4>Telefone / WhatsApp</h4>
+                                    <p>(11) 98765-4321<br>(11) 3333-4444</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                                <div>
+                                    <h4>E-mail</h4>
+                                    <p>contato@josecarlos.com.br</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                                <div>
+                                    <h4>Horário de Atendimento</h4>
+                                    <p>Segunda a Sexta<br>09:00 às 18:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container fade-in-right">
+                        <h3>Envie uma Mensagem</h3>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Nome Completo</label>
+                                    <input type="text" id="name" placeholder="Seu nome">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Telefone</label>
+                                    <input type="tel" id="phone" placeholder="(00) 00000-0000">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="voce@exemplo.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Sua Mensagem</label>
+                                <textarea id="message" rows="5" placeholder="Descreva brevemente o seu caso..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                            <p class="form-disclaimer">Garantimos o sigilo absoluto das informações enviadas.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container fade-in-up">
+            <div class="footer-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg>
+                <span>José Carlos</span>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#inicio">Início</a>
+                <a href="#areas">Atuação</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </div>
+            
+            <div class="footer-copy">
+                &copy; <span id="year"></span> José Carlos Advocacia. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
